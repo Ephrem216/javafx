@@ -17,7 +17,7 @@ public class AlseraAleEko extends Application {
         HBox hBox = new HBox(10);
         hBox.setAlignment(Pos.CENTER);
         hBox.setAlignment(Pos.CENTER);
-        Button okButton = new Button("Fuck me");
+        Button okButton = new Button("F");
         Button cancelButton = new Button("Tell me the time");
         OKHandler okHandlerClass = new OKHandler();
         CancelHandler cancelHandlerClass = new CancelHandler();
@@ -35,7 +35,7 @@ public class AlseraAleEko extends Application {
 class OKHandler implements EventHandler<ActionEvent> {
     @Override
     public void handle(ActionEvent e){
-        System.out.println("You have now successfully been disvirgined.");
+        System.out.println("Y.");
     }
 }
 
